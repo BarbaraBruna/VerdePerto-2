@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get_it/get_it.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:verde_perto/controller/cep_store.dart';
 import 'package:verde_perto/controller/image_store.dart';
 import 'package:verde_perto/controller/register_store.dart';

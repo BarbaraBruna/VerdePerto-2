@@ -3,11 +3,17 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+    
    <application
         android:label="VerdePerto"
         android:name="${applicationName}"       
         android:requestLegacyExternalStorage="true"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data         
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDDB853gZ7jk8_N6Y_W-1p8oY8qjP-Nq9o" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
